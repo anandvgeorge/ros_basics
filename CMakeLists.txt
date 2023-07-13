@@ -39,9 +39,9 @@ include_directories(
 
 add_executable(timer_basics src/timer_basics.cpp)
 add_executable(timer_callback src/timer_callback.cpp)
-add_executable(timer_publisher_service src/timer_publisher_service.cpp)
+add_executable(timer_publisher src/timer_publisher.cpp)
 
 
 target_link_libraries(timer_basics ${catkin_LIBRARIES})
 target_link_libraries(timer_callback ${catkin_LIBRARIES})
-target_link_libraries(timer_publisher_service ${catkin_LIBRARIES})
+target_link_libraries(timer_publisher ${catkin_LIBRARIES})
